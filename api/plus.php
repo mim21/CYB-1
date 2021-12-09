@@ -1,6 +1,6 @@
 <?php
 
-include 'C:\\AppParams\\params.php';
+include (getenv('MYAPP_CONFIG'));
 
 $x = $_REQUEST["x"];
 $y = $_REQUEST["y"];

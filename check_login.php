@@ -1,13 +1,13 @@
 <?php
-    session_start();
+    session_start();    
+    include (getenv('MYAPP_CONFIG'));
 ?>
 <html>
     <head>
         <title></title>
     </head>
     <body>
-        <?php
-            include 'C:\\AppParams\\params.php';
+        <?php            
             $user = $_REQUEST["user"];
             $pwd = $_REQUEST["pwd"];
             $hash = hash('sha256',$pwd);
