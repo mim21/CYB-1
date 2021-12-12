@@ -34,5 +34,6 @@
 
             echo("Всего щелчков: $i");
         ?>
+        <br><br><a href="index_.html">index</a>
     </body>
 </html>
