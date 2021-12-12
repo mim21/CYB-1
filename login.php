@@ -12,5 +12,7 @@
             <input name="pwd" type="password" /> <br />
             <button id="btn1">Go!</button>
         </form>
+
+        <a href="register.php">Register</a>
     </body>
 </html>
