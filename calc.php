@@ -70,5 +70,7 @@
         <button id="btn2" onclick="minus();">-</button> <br>
         <input id="z">  
         <br><a href="index_.html">index</a>
+        <br><a href="api/get_log.php">get log</a>
+        <br><a href="billing.php">billing</a>
     </body>
 </html>
