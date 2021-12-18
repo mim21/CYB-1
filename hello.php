@@ -11,4 +11,6 @@ date_default_timezone_set("Europe/Moscow");
 $now = date("H:i:s");
 echo("<h1>Страница открыта в $now</h1>");
 
+echo(getenv('MYAPP_CONFIG'));
+
 ?>
